@@ -1,5 +1,21 @@
-.h1, h1 {
-  font-size: 2.5rem;
+@media (min-width:992px) {
+  .portfolio-item:hover .caption {
+    background-color: rgba(29,128,159,.9);
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
   font-family: 'Libre Baskerville';
+}
+
+.badge-primary {
+  color: #fff;
+  background-color: #582eff;
+}
+
+.hr, hr {
+  border-top: 3px;
+  width: 30%;
 }
 
