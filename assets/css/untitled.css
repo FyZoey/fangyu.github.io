@@ -1,21 +1,49 @@
 @media (min-width:992px) {
   .portfolio-item:hover .caption {
-    background-color: rgba(29,128,159,.9);
+    background-color: rgb(88,46,255);
   }
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
-  font-family: 'Libre Baskerville';
+  font-family: 'Cormorant Garamond';
+  color: #212529;
 }
 
-.badge-primary {
-  color: #fff;
-  background-color: #582eff;
+.bg-light {
+  background-color: #ffffff!important;
 }
 
-.hr, hr {
-  border-top: 3px;
-  width: 30%;
+hr {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 0px;
+  border: 0;
+  border-top: 1.5px dotted #a9afb5;
+}
+
+a:active, a:focus, a:hover {
+  color: #1f6bff;
+}
+
+a:hover {
+  color: #1955cb;
+  background-color: #d3e2ff;
+  text-decoration: none;
+}
+
+a {
+  color: #0257ff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Be Vietnam',-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.8;
+  color: #5e6367;
+  text-align: left;
+  background-color: #fff;
 }
 

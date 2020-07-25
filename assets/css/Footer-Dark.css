@@ -88,3 +88,9 @@
   margin-bottom: 0;
 }
 
+.float-left {
+  position: fixed;
+  margin-top: 20vh;
+  z-index: 1000;
+}
+
