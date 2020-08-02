@@ -28,7 +28,7 @@ a:active, a:focus, a:hover {
 
 a:hover {
   color: #1955cb;
-  background-color: #d3e2ff;
+  background-color: rgba(31,107,255,0.15);
   text-decoration: none;
 }
 
