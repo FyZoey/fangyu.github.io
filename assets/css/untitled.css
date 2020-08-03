@@ -17,9 +17,9 @@ h1, h2, h3, h4, h5, h6 {
 hr {
   margin-top: 3rem;
   margin-bottom: 3rem;
-  margin-left: 0px;
   border: 0;
   border-top: 1.5px dotted #a9afb5;
+  width: 850px;
 }
 
 a:active, a:focus, a:hover {
@@ -51,5 +51,9 @@ img, svg {
   vertical-align: middle;
   padding-top: 10px;
   padding-bottom: 20px;
+}
+
+dl, ol, ul {
+  list-style: decimal;
 }
 
