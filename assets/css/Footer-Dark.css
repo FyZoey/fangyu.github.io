@@ -90,7 +90,7 @@
 
 .float-left {
   position: fixed;
-  margin-top: 20vh;
+  bottom: 150px;
   z-index: 1000;
 }
 
