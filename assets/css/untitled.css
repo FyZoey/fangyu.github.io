@@ -21,14 +21,14 @@ a:active, a:focus, a:hover {
 }
 
 a:hover {
-  color: #582eff!important;
+  color: #212529!important;
   background-color: #fff5c0;
   text-decoration: none;
   cursor: pointer;
 }
 
 a {
-  color: #212529;
+  color: #582eff;
 }
 
 body {
