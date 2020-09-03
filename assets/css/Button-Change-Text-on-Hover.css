@@ -78,3 +78,16 @@
   transition-delay: 0s;
 }
 
+@media (min-width: 768px) {
+  #anchor {
+    text-align: center;
+  }
+}
+
+#anchor {
+  position: fixed;
+  bottom: 150px;
+  right: 50px;
+  z-index: 1000;
+}
+
