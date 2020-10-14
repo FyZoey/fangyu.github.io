@@ -1,4 +1,12 @@
-h1, h3, h6 {
+h3, h6 {
+  line-height: 60px;
+  font-family: 'Lato';
+  color: #212529;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 300;
   line-height: 60px;
   font-family: 'Lato';
   color: #212529;
@@ -6,7 +14,7 @@ h1, h3, h6 {
 
 h2 {
   font-size: 32px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 60px;
   font-family: 'Lato';
   color: #212529;
@@ -19,7 +27,7 @@ h4 {
   font-weight: 300;
   font-family: 'Lato';
   text-align: left;
-  color: #53595e;
+  color: #212529;
 }
 
 h5 {
@@ -32,6 +40,13 @@ h5 {
 }
 
 span {
+  font-weight: 900;
+}
+
+small {
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: 'Lato';
 }
 
 .bg-light {
