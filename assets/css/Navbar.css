@@ -1,0 +1,14 @@
+.navbar-light .navbar-nav .nav-link:hover {
+  background-color: rgba(255,255,255,0);
+  cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: inherit;
+}
+
+.navbar.navbar-light.navbar-expand-md.sticky-top.navigation-clean {
+  margin-top: 0;
+  z-index: 10;
+}
+
